@@ -1,0 +1,17 @@
+{% extends 'recipe_site/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div style="display: flex; align-items: center; flex-direction: column; border: burlywood 2px solid">
+        <h2 style='font-size: 45px; color: forestgreen'>Название: {{ recipe.name }}</h2>
+        <br>
+        <p style='font-size: 35px'> Используемые ингредиенты: {{ recipe.ingredients }} </p>
+        <p style='font-size: 35px'> Описание: {{ recipe.description }}</p>
+        <p style='font-size: 35px'> Этапы приготовления: {{ recipe.cook_steps }}</p>
+        <p style='font-size: 35px'> Время приготовления: {{ recipe.cook_time }} мин.</p>
+
+    </div>
+{% endblock %}

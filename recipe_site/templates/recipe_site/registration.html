@@ -1,0 +1,14 @@
+{% extends 'recipe_site/base.html' %}
+{% load static %}
+{% block title %}
+
+  {{ title }}
+{% endblock %}
+{% block content %}
+<img src="{% static 'recipe_site/reg_user.png' %}">
+<form style="gap:20px;" method="post">
+{% csrf_token %}
+  {{ form.as_ul }}
+  <button style="border: none; " type="submit"><img src="{% static 'recipe_site/reg_button.png' %}"></button>
+</form>
+{% endblock content %}

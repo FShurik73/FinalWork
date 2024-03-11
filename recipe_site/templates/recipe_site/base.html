@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'recipe_site/css/style.css' %}">
+    <title>{% block title %}Домашние рецепты {% endblock %}</title>
+</head>
+<body>
+<header class="header" style="display: flex; justify-content: space-around;">
+    <a href="{% url 'Home' %}">
+        <img class="logo" src="{% static 'recipe_site/logo.png' %}">
+    </a>
+    <!--            <p>Домашние рецепты</p>-->
+    <img class="name" src="{% static 'recipe_site/name.png' %}">
+    </a>
+    <div class="link_box" style="display: flex; justify-content: space-around ">
+        {% if user.is_authenticated %}
+            <a style="text-decoration: none; font-size: 40px;" href="{% url 'profile' user.id %}">
+                <p>{{ user.username }}</p></a>
+            <a href="{% url 'logout' %}"><img style="height: 100px; width: 150px;" class="exit"
+                                              src="{% static 'recipe_site/exit.png' %}"></a>
+        {% else %}
+            <a href="{% url 'login' %}"><img class="vhod" src="{% static 'recipe_site/vhod.png' %}"></a>
+            <a href="{% url 'reg' %}"><img class="reg" src="{% static 'recipe_site/reg.png' %}"></a>
+        {% endif %}
+
+    </div>
+</header>
+<content class="content" style="display: flex; width: 1600px; gap:30px; background-color: #fff2e5;">
+    <div class="box_category"
+         style=" display: flex; flex-direction: column; width: 30%; background-color: #fff2e5; padding-left: 50px">
+        <img class="Category" style="height: 80px; width: 300px" src="{% static 'recipe_site/category.png' %}">
+        <a href="{% url 'Recipe by category' 1 %}"><img class="Category_1" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/salats.png' %}"></a>
+        <a href="{% url 'Recipe by category' 2 %}"><img class="Category_5" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/soups.png' %}"></a>
+        <a href="{% url 'Recipe by category' 3 %}"><img class="Category_2" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/meat_dishes.png' %}"></a>
+        <a href="{% url 'Recipe by category' 4 %}"><img class="Category_3" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/fish_dishes.png' %}"></a>
+        <a href="{% url 'Recipe by category' 5 %}"><img class="Category_4" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/bird_dishes.png' %}"></a>
+        <a href="{% url 'Recipe by category' 6 %}"><img class="Category_6" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/garniry.png' %}"></a>
+        <a href="{% url 'Recipe by category' 7 %}"><img class="Category_7" style="height: 80px; width: 300px"
+                                                        src="{% static 'recipe_site/vypechka.png' %}"></a>
+    </div>
+    <div class="box_recipe" style="width:70%; background-color: #fff2e5;">
+        {% block content %}
+        {% endblock %}
+    </div>
+</content>
+
+
+<footer class="footer">
+    <a href="{% url 'About' %}"><img class="about" style="height: 100px" src="{% static 'recipe_site/about.png' %}"></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends 'recipe_site/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+   {% for i in recipe %}
+       <div class="recipe_" style="display:flex; align-items: center; flex-direction: column">
+            <a style="text-decoration: none;" href="{% url 'Recipe' i.id %}"><h2>{{ i.name}}</h2></a>
+            <p> {{ i.description }}</p>
+
+       </div>
+   {% endfor %}
+
+
+{% endblock %}

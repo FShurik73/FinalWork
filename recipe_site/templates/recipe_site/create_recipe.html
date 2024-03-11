@@ -1,0 +1,14 @@
+{% extends 'recipe_site/base.html' %}
+{% load static %}
+{% block title %}
+
+  {{ title }}
+{% endblock %}
+{% block content %}
+<img src="{% static 'recipe_site/add_recipe.png' %}">
+<form action="{% url 'Create recipe' %}" method="post">
+  {% csrf_token %}
+  {{ form.as_ul }}
+  <button type="submit">Добавить</button>
+</form>
+{% endblock %}

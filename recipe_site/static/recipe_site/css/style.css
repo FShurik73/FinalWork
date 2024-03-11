@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "BonjourMonAmi";
+    src: url('../fonts/CormorantUnicase-SemiBold.ttf');
+    font-style: normal;
+    line-height: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #fff2e5;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.logo {
+    margin: 25px;
+    height:200px;
+    width:200px;
+}
+.name {
+    /*font-family: "CormorantUnicase-SemiBold", sans-serif;*/
+
+.link_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+.vhod {
+    height: 100px;
+
+}
+.reg {
+    height: 100px;
+}
+.content {
+    display: flex;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+.box_category {
+    width: 30%;
+    border: black 2px solid;
+}
+.box_recipe {
+    border: red 2px solid;
+}
+.footer {
+    background-color: #fff2e5;
+
+}
+.about {
+    height: 180px;
+    width: 300px;
+}
