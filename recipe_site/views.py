@@ -59,6 +59,28 @@ def recipes_by_category(request, category_id):
         'recipe': Recipe.objects.filter(category=category).all()
     }
     return render(request, 'recipe_site/recipe_list.html', context)
+    
+
+def search_recipes(request):
+    query = request.POST.get('query')
+    if query:
+        recipes = Recipe.objects.filter(title__icontains=query).order_by('title')
+    context = {
+        'title': 'Поиск рецепта',
+        'recipes': recipes
+    }
+    return render(request, 'recipes_search.html', context)
+
+
+def profile(request, user_id):
+    user = User.objects.filter(pk=user_id).first()
+    recipe = get_object_or_404(Recipe, author=user)
+    context = {
+        'title': f'Профиль пользователя: {user.username}',
+        'recipes': recipe,
+        'user': user,
+    }
+    return render(request, 'recipe_site/profile.html', context)
 
 
 def login_user(request):
