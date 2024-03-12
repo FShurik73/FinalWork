@@ -14,8 +14,8 @@
     <a href="{% url 'Home' %}">
         <img class="logo" src="{% static 'recipe_site/logo.png' %}">
     </a>
-    <!--            <p>Домашние рецепты</p>-->
-    <img class="name" src="{% static 'recipe_site/name.png' %}">
+    <a href="{% url 'Create recipe' %}">
+        <img class="name" src="{% static 'recipe_site/name.png' %}">
     </a>
     <div class="link_box" style="display: flex; justify-content: space-around ">
         {% if user.is_authenticated %}
