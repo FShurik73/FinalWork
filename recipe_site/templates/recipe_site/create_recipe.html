@@ -9,6 +9,6 @@
 <form action="{% url 'Create recipe' %}" method="post">
   {% csrf_token %}
   {{ form.as_ul }}
-  <button type="submit">Добавить</button>
+  <button class= "btn btn-success" type="submit">Добавить</button>
 </form>
 {% endblock %}

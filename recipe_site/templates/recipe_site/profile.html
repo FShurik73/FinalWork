@@ -1,0 +1,24 @@
+{% extends 'recipe_site/base.html' %}
+{% load static %}
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+
+    <h2 style="color: forestgreen; font-size: 40px"> {{ user.username }} </h2>
+    <br>
+    <p style="font-size: 30px">Имя:  {{ user.first_name }} </p><br>
+    <p style="font-size: 30px">Фамилия: {{ user.last_name }} </p><br>
+    <p style="font-size: 30px">Email: {{ user.email }} </p><br>
+    <p style="font-size: 30px">Дата добавления: {{ user.date_joined}} </p><br>
+    <a href=" {% url 'Create recipe' %} "><img src="{% static 'recipe_site/add_recipe.png' %}"></a>
+    {% for i in recipes %}
+         <div  style="display:flex; align-items: center; flex-direction: column; gap: 20px;">
+            <a style="text-decoration: none; background-color: #fff2e5;" href="{% url 'Recipe' i.id %}"><h2>{{ i.title }}</h2></a>
+            <p> {{ i.description }}</p>
+        </div>
+    {% endfor %}
+
+
+{% endblock %}

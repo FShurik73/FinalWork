@@ -22,19 +22,19 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-br$*f(+%@*cy$-hoj++%ulyv+r!5b3cehn^k)jnj5aox$g*z*-'
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = 'django-insecure-br$*f(+%@*cy$-hoj++%ulyv+r!5b3cehn^k)jnj5aox$g*z*-'
+# SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-if os.environ.get("DEBUG") == "False":
-    DEBUG = False
-else:
-    DEBUG = True
+DEBUG = True
+# if os.environ.get("DEBUG") == "False":
+#     DEBUG = False
+# else:
+#     DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'storeapp2024.pythonanywhere.com',
+
 ]
 
 # Application definition
@@ -120,21 +120,21 @@ WSGI_APPLICATION = 'FinalWork.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": os.getenv("MYSQL_DBNAME"),
-        "USER": os.getenv("MYSQL_USER"),
-        "PASSWORD": os.getenv("MYSQL_PASSWORD"),
-        "HOST": os.getenv("MYSQL_HOST"),
-        "OPTIONS": {
-            "init_command": "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'",
-            "charset": "utf8mb4",
-        },
-    }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # "default": {
+    #     "ENGINE": "django.db.backends.mysql",
+    #     "NAME": os.getenv("MYSQL_DBNAME"),
+    #     "USER": os.getenv("MYSQL_USER"),
+    #     "PASSWORD": os.getenv("MYSQL_PASSWORD"),
+    #     "HOST": os.getenv("MYSQL_HOST"),
+    #     "OPTIONS": {
+    #         "init_command": "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'",
+    #         "charset": "utf8mb4",
+    #     },
     # }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 # Password validation
@@ -196,5 +196,5 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 LOGIN_REDIRECT_URL = 'Home'
 
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True

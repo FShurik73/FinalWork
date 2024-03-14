@@ -9,6 +9,37 @@ class CreateRecipe(forms.ModelForm):
     class Meta:
         model = Recipe
         fields = ['name', 'description', 'cook_steps', 'cook_time', 'image', 'ingredients', 'author', 'category']
+        widgets = {
+            'name': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Напишите название блюда',
+            }),
+            'description': forms.Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Напишите описание блюда'
+            }),
+            'cook_steps': forms.Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Напишите как готовится блюдо'
+            }),
+            'cook_time': forms.NumberInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Напишите время приготовления блюда'
+            }),
+            'image': forms.FileInput(attrs={
+                'class': 'form-control',
+            }),
+            'ingredients': forms.Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Напишите ингредиенты'
+            }),
+            'author': forms.Select(attrs={
+                'class': 'form-control',
+            }),
+            'category': forms.Select(attrs={
+                'class': 'form-control',
+            }),
+        }
         classes = []
 
 
@@ -20,6 +51,28 @@ class RegForm(forms.ModelForm):
     class Meta:
         model = User
         fields = ['username', 'first_name', 'last_name', 'email', 'password',]
+        widgets = {
+            'username': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Введите имя пользователя'
+            }),
+            'first_name': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Введите имя'
+            }),
+            'last_name': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Введите фамилию'
+            }),
+            'email': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Введите электронную почту'
+            }),
+            'password': forms.PasswordInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Введите пароль'
+            }),
+        }
 
 
 class UploadPhotoForm(forms.Form):
