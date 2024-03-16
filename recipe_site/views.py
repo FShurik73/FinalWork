@@ -62,8 +62,19 @@ def recipes_by_category(request, category_id):
     return render(request, 'recipe_site/recipe_list.html', context)
 
 
-# class SearchRecipe(ListView):
-#     model = Recipe
+class SearchRecipe(ListView):
+    template_name = 'recipe_site/recipe_search.html'
+    context_object_name = 'name'
+    paginate_by = 3
+
+    def get_queryset(self):
+        return Recipe.objects.filter(name__icontains=self.request.GET.get('q'))
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['q'] = self.request.GET.get('q')
+        return context
+#    model = Recipe
 #     template_name = 'recipe_site/recipe_search.html'
 #
 #     # def get_queryset(self):

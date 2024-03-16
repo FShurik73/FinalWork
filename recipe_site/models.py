@@ -40,5 +40,8 @@ class Recipe(models.Model):
         verbose_name = 'Рецепт'
         verbose_name_plural = 'Рецепты'
 
+    def get_absolute_url(self):
+        return reverse('recipe', kwargs={'pk': self.pk})
+
 
 

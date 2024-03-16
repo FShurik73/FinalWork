@@ -1,27 +1,16 @@
 {% extends 'recipe_site/base.html' %}
 {% load static %}
-{% load bootstrap4 %}
+
 {% block title %}
     <h3> {{ title }} </h3>
 {% endblock %}
 
 {% block content %}
-    {% if recipe_lists %}
-        {% for recipe in recipe_lists %}
-            <a href="{% url 'recipe' recipe.id %}">
-                <h3>{{ recipe.name }}</h3>
-            </a>
-            <p>{{ recipe.description }}</p>
-        {% endfor %}
-    {% endif %}
+    {% for recipe in object_list %}
+        <h2>{{ recipe.name }}</h2>
+        <p>{{ recipe.description }}</p>
+        <a href="{% url 'Recipe' recipe.id %}">Подробнее</a>
 
 
-{#    {{ results|length }}#}
-{#    <ul>#}
-{#        {% for recipe in results %}#}
-{#        <li>#}
-{#            {{ recipe.name}}#}
-{#        </li>#}
-{#        {%  endfor %}#}
-{#    </ul>#}
+    {% endfor %}
 {% endblock %}
