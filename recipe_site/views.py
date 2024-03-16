@@ -3,11 +3,12 @@ import random
 from django.contrib.auth import logout, authenticate, login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse, reverse_lazy
 from django.views import generic
-from django.views.generic import CreateView
+from django.views.generic import CreateView, ListView
 
 from recipe_site.forms import CreateRecipe, LoginUserForm, RegForm
 from recipe_site.models import Recipe, Category
@@ -59,44 +60,36 @@ def recipes_by_category(request, category_id):
         'recipe': Recipe.objects.filter(category=category).all()
     }
     return render(request, 'recipe_site/recipe_list.html', context)
-    
-
-def search_recipes(request):
-    query = request.POST.get('query')
-    if query:
-        recipes = Recipe.objects.filter(title__icontains=query).order_by('title')
-    context = {
-        'title': 'Поиск рецепта',
-        'recipes': recipes
-    }
-    return render(request, 'recipes_search.html', context)
 
 
-def profile(request, user_id):
-    user = User.objects.filter(pk=user_id).first()
-    recipe = get_object_or_404(Recipe, author=user)
-    context = {
-        'title': f'Профиль пользователя: {user.username}',
-        'recipes': recipe,
-        'user': user,
-    }
-    return render(request, 'recipe_site/profile.html', context)
-
-
-def search_recipes(request):
-    query = request.POST.get('query')
-    if query:
-        recipes = Recipe.objects.filter(title__icontains=query).order_by('title')
-    context = {
-        'title': 'Поиск рецепта',
-        'recipes': recipes
-    }
-    return render(request, 'recipe_site/recipe_search.html', context)
+# class SearchRecipe(ListView):
+#     model = Recipe
+#     template_name = 'recipe_site/recipe_search.html'
+#
+#     # def get_queryset(self):
+#     #     query = self.request.GET.get('q')
+#     #     results = Recipe.objects.filter(Q(name__icontains=query))
+#     #     return results
+#     def get(self, request, *args, **kwargs):
+#         context = {}
+#         query = request.GET.get('q')
+#         if query is not None:
+#             results = Recipe.objects.filter(name__search=query)
+#             context['last_query'] = '&?q=%s' % query
+#             current_page = Paginator(results, 5)
+#             page = request.GET.get('page')
+#             try:
+#                 context['recipes_lists'] = current_page.page(page)
+#             except PageNotAnInteger:
+#                 context['recipes_lists'] = current_page.page(1)
+#             except EmptyPage:
+#                 context['recipes_lists'] = current_page.page(current_page.num_pages)
+#         return render(template_name=self.template_name, context=context)
 
 
 def profile(request, user_id):
     user = User.objects.filter(pk=user_id).first()
-    recipe = get_object_or_404(Recipe, author=user)
+    recipe = Recipe.objects.filter(author=user)
     context = {
         'title': f'Профиль пользователя: {user.username}',
         'recipes': recipe,

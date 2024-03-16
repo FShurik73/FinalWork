@@ -7341,3 +7341,1749 @@ INFO 2024-03-14 09:42:07,324 "GET /add/ HTTP/1.1" 200 5818
 INFO 2024-03-14 09:42:52,510 "GET /add/ HTTP/1.1" 200 5819
 INFO 2024-03-14 09:46:30,190 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
 INFO 2024-03-14 09:46:30,806 Watching for file changes with StatReloader
+INFO 2024-03-14 09:52:30,386 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\forms.py changed, reloading.
+INFO 2024-03-14 09:52:30,928 Watching for file changes with StatReloader
+INFO 2024-03-14 09:54:11,397 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\forms.py changed, reloading.
+INFO 2024-03-14 09:54:11,882 Watching for file changes with StatReloader
+INFO 2024-03-14 09:54:18,662 "GET /login/ HTTP/1.1" 200 3762
+WARNING 2024-03-14 09:54:18,771 Not Found: /favicon.ico
+INFO 2024-03-14 09:54:18,772 - Broken pipe from ('127.0.0.1', 60637)
+INFO 2024-03-14 09:54:56,320 "GET /login/ HTTP/1.1" 200 3762
+WARNING 2024-03-14 09:54:56,431 Not Found: /favicon.ico
+WARNING 2024-03-14 09:54:56,432 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 09:54:57,715 "GET /login/ HTTP/1.1" 200 3786
+WARNING 2024-03-14 09:54:57,785 Not Found: /favicon.ico
+WARNING 2024-03-14 09:54:57,786 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 09:55:07,221 "GET /signup/ HTTP/1.1" 200 4864
+INFO 2024-03-14 09:55:07,419 - Broken pipe from ('127.0.0.1', 60755)
+INFO 2024-03-14 09:55:07,421 - Broken pipe from ('127.0.0.1', 60725)
+INFO 2024-03-14 09:55:10,392 "GET /add/ HTTP/1.1" 200 5820
+WARNING 2024-03-14 09:55:10,476 Not Found: /favicon.ico
+WARNING 2024-03-14 09:55:10,477 "GET /favicon.ico HTTP/1.1" 404 3895
+WARNING 2024-03-14 09:59:22,473 Not Found: /search/2/
+WARNING 2024-03-14 09:59:22,474 "GET /search/2/ HTTP/1.1" 404 3889
+WARNING 2024-03-14 09:59:40,912 Not Found: /search/2/
+WARNING 2024-03-14 09:59:40,912 "GET /search/2/ HTTP/1.1" 404 3889
+WARNING 2024-03-14 09:59:40,941 Not Found: /favicon.ico
+WARNING 2024-03-14 09:59:40,942 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 10:00:52,119 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 10:00:52,653 Watching for file changes with StatReloader
+WARNING 2024-03-14 10:03:20,403 Not Found: /search/2/
+WARNING 2024-03-14 10:03:20,404 "GET /search/2/ HTTP/1.1" 404 3889
+WARNING 2024-03-14 10:03:20,433 Not Found: /favicon.ico
+WARNING 2024-03-14 10:03:20,435 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 10:05:34,990 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 10:05:35,486 Watching for file changes with StatReloader
+INFO 2024-03-14 10:08:59,132 "GET /about/ HTTP/1.1" 200 3644
+INFO 2024-03-14 10:08:59,247 "GET /static/recipe_site/photo.png HTTP/1.1" 200 97402
+WARNING 2024-03-14 10:08:59,258 Not Found: /favicon.ico
+WARNING 2024-03-14 10:08:59,259 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 10:09:30,990 "GET /category/6 HTTP/1.1" 200 3583
+WARNING 2024-03-14 10:09:31,083 Not Found: /favicon.ico
+WARNING 2024-03-14 10:09:31,083 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 10:09:33,238 "GET /recipe/3 HTTP/1.1" 200 4987
+WARNING 2024-03-14 10:09:33,327 Not Found: /favicon.ico
+WARNING 2024-03-14 10:09:33,328 "GET /favicon.ico HTTP/1.1" 404 3895
+WARNING 2024-03-14 10:10:47,191 Not Found: /profile/3/
+WARNING 2024-03-14 10:10:47,192 "GET /profile/3/ HTTP/1.1" 404 3892
+INFO 2024-03-14 10:12:08,519 "GET /login/ HTTP/1.1" 200 3786
+WARNING 2024-03-14 10:12:08,621 Not Found: /favicon.ico
+WARNING 2024-03-14 10:12:08,623 "GET /favicon.ico HTTP/1.1" 404 3895
+INFO 2024-03-14 10:12:14,323 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-14 10:12:14,336 "GET / HTTP/1.1" 200 7257
+INFO 2024-03-14 10:12:14,359 "GET /static/recipe_site/exit.png HTTP/1.1" 200 11194
+WARNING 2024-03-14 10:12:14,425 Not Found: /favicon.ico
+WARNING 2024-03-14 10:12:14,427 "GET /favicon.ico HTTP/1.1" 404 3895
+ERROR 2024-03-14 10:12:23,203 Internal Server Error: /profile/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in profile
+    recipe = get_object_or_404(Recipe, author=user)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 652, in get
+    raise self.model.MultipleObjectsReturned(
+recipe_site.models.Recipe.MultipleObjectsReturned: get() returned more than one Recipe -- it returned 3!
+ERROR 2024-03-14 10:12:23,206 "GET /profile/2 HTTP/1.1" 500 97855
+WARNING 2024-03-14 10:12:23,274 Not Found: /favicon.ico
+INFO 2024-03-14 10:12:23,275 - Broken pipe from ('127.0.0.1', 62164)
+ERROR 2024-03-14 10:14:57,451 Internal Server Error: /profile/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in profile
+    recipe = user.recipes.filter(Recipe, author=user)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 652, in get
+    raise self.model.MultipleObjectsReturned(
+recipe_site.models.Recipe.MultipleObjectsReturned: get() returned more than one Recipe -- it returned 3!
+ERROR 2024-03-14 10:14:57,454 "GET /profile/2 HTTP/1.1" 500 97859
+INFO 2024-03-14 10:14:57,524 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 10:14:58,040 Watching for file changes with StatReloader
+ERROR 2024-03-14 10:14:59,766 Internal Server Error: /profile/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in profile
+    recipe = user.recipes.filter(Recipe, author=user)
+             ^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'recipes'
+ERROR 2024-03-14 10:14:59,767 "GET /profile/2 HTTP/1.1" 500 67426
+WARNING 2024-03-14 10:14:59,827 Not Found: /favicon.ico
+WARNING 2024-03-14 10:14:59,827 "GET /favicon.ico HTTP/1.1" 404 3895
+ERROR 2024-03-14 10:15:02,240 Internal Server Error: /profile/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in profile
+    recipe = user.recipes.filter(Recipe, author=user)
+             ^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'recipes'
+ERROR 2024-03-14 10:15:02,241 "GET /profile/2 HTTP/1.1" 500 67426
+ERROR 2024-03-14 10:15:43,315 Internal Server Error: /profile/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in profile
+    recipe = Recipe.objects.filter( author=user)
+             ^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'recipes'
+ERROR 2024-03-14 10:15:43,317 "GET /profile/2 HTTP/1.1" 500 67416
+INFO 2024-03-14 10:15:44,038 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 10:15:44,503 Watching for file changes with StatReloader
+INFO 2024-03-14 10:15:45,889 "GET /profile/2 HTTP/1.1" 200 6648
+INFO 2024-03-14 10:15:45,994 - Broken pipe from ('127.0.0.1', 62766)
+INFO 2024-03-14 10:16:12,989 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 10:16:13,521 Watching for file changes with StatReloader
+INFO 2024-03-14 10:16:13,875 "GET /add/ HTTP/1.1" 200 5899
+WARNING 2024-03-14 10:16:15,499 Not Found: /favicon.ico
+INFO 2024-03-14 10:16:15,500 - Broken pipe from ('127.0.0.1', 62822)
+INFO 2024-03-14 10:18:09,557 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 10:18:10,092 Watching for file changes with StatReloader
+WARNING 2024-03-14 10:18:10,429 Not Found: /profile/2
+WARNING 2024-03-14 10:18:10,429 "GET /profile/2 HTTP/1.1" 404 3899
+WARNING 2024-03-14 10:18:19,334 Not Found: /profile/2
+WARNING 2024-03-14 10:18:19,335 "GET /profile/2 HTTP/1.1" 404 3899
+WARNING 2024-03-14 10:18:36,276 Not Found: /profile/2
+WARNING 2024-03-14 10:18:36,277 "GET /profile/2 HTTP/1.1" 404 3899
+WARNING 2024-03-14 10:19:54,906 Not Found: /profile/2
+WARNING 2024-03-14 10:19:54,906 "GET /profile/2 HTTP/1.1" 404 3899
+WARNING 2024-03-14 10:19:59,631 Not Found: /profile/2
+WARNING 2024-03-14 10:19:59,632 "GET /profile/2 HTTP/1.1" 404 3899
+WARNING 2024-03-14 10:20:36,905 Not Found: /profile/2
+WARNING 2024-03-14 10:20:36,905 "GET /profile/2 HTTP/1.1" 404 3899
+INFO 2024-03-14 10:20:37,078 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 10:20:37,574 Watching for file changes with StatReloader
+ERROR 2024-03-14 10:20:38,762 Internal Server Error: /profile/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 83, in profile
+    return render(request, 'recipe_site/profile.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+ERROR 2024-03-14 10:20:38,769 "GET /profile/2 HTTP/1.1" 500 310669
+INFO 2024-03-14 10:21:14,176 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 10:21:14,737 Watching for file changes with StatReloader
+INFO 2024-03-14 10:21:16,202 "GET /profile/2 HTTP/1.1" 200 6648
+INFO 2024-03-14 10:37:42,429 "GET /profile/2 HTTP/1.1" 200 7910
+WARNING 2024-03-14 10:37:42,525 Not Found: /favicon.ico
+INFO 2024-03-14 10:37:42,526 - Broken pipe from ('127.0.0.1', 65125)
+INFO 2024-03-14 10:44:45,532 "GET /profile/2 HTTP/1.1" 200 8259
+WARNING 2024-03-14 10:44:45,647 Not Found: /favicon.ico
+INFO 2024-03-14 10:44:45,648 - Broken pipe from ('127.0.0.1', 50252)
+INFO 2024-03-14 11:02:32,735 "GET /category/2 HTTP/1.1" 200 6918
+ERROR 2024-03-14 11:04:29,599 Internal Server Error: /search/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: search_recipes() got an unexpected keyword argument 'query'
+ERROR 2024-03-14 11:04:29,600 "GET /search/2 HTTP/1.1" 500 63381
+ERROR 2024-03-14 11:04:43,579 Internal Server Error: /search/суп
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: search_recipes() got an unexpected keyword argument 'query'
+ERROR 2024-03-14 11:04:43,580 "GET /search/%D1%81%D1%83%D0%BF HTTP/1.1" 500 63479
+ERROR 2024-03-14 11:06:07,982 Internal Server Error: /search/суп
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: search_recipes() got an unexpected keyword argument 'query'
+ERROR 2024-03-14 11:06:07,984 "GET /search/%D1%81%D1%83%D0%BF HTTP/1.1" 500 63479
+INFO 2024-03-14 11:06:08,354 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 11:06:08,870 Watching for file changes with StatReloader
+WARNING 2024-03-14 11:06:13,694 Not Found: /search/суп
+WARNING 2024-03-14 11:06:13,695 "GET /search/%D1%81%D1%83%D0%BF HTTP/1.1" 404 3896
+ERROR 2024-03-14 11:06:16,907 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 70, in search_recipes
+    'recipes': recipes
+               ^^^^^^^
+UnboundLocalError: cannot access local variable 'recipes' where it is not associated with a value
+ERROR 2024-03-14 11:06:16,909 "GET /search/ HTTP/1.1" 500 67160
+INFO 2024-03-14 11:07:29,169 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 11:07:29,650 Watching for file changes with StatReloader
+ERROR 2024-03-14 11:10:53,502 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search_results' not found. 'search_results' is not a valid view function or pattern name.
+ERROR 2024-03-14 11:10:53,507 "GET /category/2 HTTP/1.1" 500 219908
+ERROR 2024-03-14 11:11:52,002 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search_results' not found. 'search_results' is not a valid view function or pattern name.
+ERROR 2024-03-14 11:11:52,005 "GET /category/2 HTTP/1.1" 500 219908
+ERROR 2024-03-14 11:11:54,656 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:11:54,659 "GET /category/2 HTTP/1.1" 500 221606
+ERROR 2024-03-14 11:11:56,610 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:11:56,613 "GET /category/2 HTTP/1.1" 500 221606
+ERROR 2024-03-14 11:12:50,700 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:12:50,703 "GET /category/2 HTTP/1.1" 500 221606
+ERROR 2024-03-14 11:12:52,009 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:12:52,013 "GET /category/2 HTTP/1.1" 500 221693
+ERROR 2024-03-14 11:12:53,314 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:12:53,317 "GET /category/2 HTTP/1.1" 500 221693
+ERROR 2024-03-14 11:13:11,833 Internal Server Error: /category/2
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 61, in recipes_by_category
+    return render(request, 'recipe_site/recipe_list.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:13:11,837 "GET /category/2 HTTP/1.1" 500 221693
+INFO 2024-03-14 11:13:14,050 "GET /category/2 HTTP/1.1" 200 5361
+INFO 2024-03-14 11:13:14,224 - Broken pipe from ('127.0.0.1', 53910)
+INFO 2024-03-14 11:13:14,233 - Broken pipe from ('127.0.0.1', 53911)
+INFO 2024-03-14 11:13:14,252 - Broken pipe from ('127.0.0.1', 53698)
+INFO 2024-03-14 11:13:14,261 - Broken pipe from ('127.0.0.1', 53912)
+INFO 2024-03-14 11:34:48,002 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 11:34:48,471 Watching for file changes with StatReloader
+ERROR 2024-03-14 11:35:14,497 Internal Server Error: /search/суп
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: search_recipes() got an unexpected keyword argument 'query'
+ERROR 2024-03-14 11:35:14,499 "GET /search/%D1%81%D1%83%D0%BF HTTP/1.1" 500 63479
+ERROR 2024-03-14 11:41:25,049 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 31, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Search recipes' with no arguments not found. 1 pattern(s) tried: ['search/(?P<query>[^/]+)\\Z']
+ERROR 2024-03-14 11:41:25,053 "GET / HTTP/1.1" 500 248019
+INFO 2024-03-14 11:41:51,546 "GET / HTTP/1.1" 200 6430
+INFO 2024-03-14 11:42:09,962 - Broken pipe from ('127.0.0.1', 58181)
+INFO 2024-03-14 11:42:09,974 - Broken pipe from ('127.0.0.1', 58276)
+INFO 2024-03-14 11:42:30,309 "GET / HTTP/1.1" 200 5595
+INFO 2024-03-14 11:42:32,850 "GET / HTTP/1.1" 200 5000
+INFO 2024-03-14 11:47:18,237 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 11:47:18,775 Watching for file changes with StatReloader
+ERROR 2024-03-14 11:47:20,332 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'recipe_site'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 31, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'recipe_site' is not a registered namespace
+ERROR 2024-03-14 11:47:20,336 "GET / HTTP/1.1" 500 270176
+INFO 2024-03-14 11:50:36,071 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 11:50:36,544 Watching for file changes with StatReloader
+ERROR 2024-03-14 11:50:39,089 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'recipe_site'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 31, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'recipe_site' is not a registered namespace
+ERROR 2024-03-14 11:50:39,093 "GET / HTTP/1.1" 500 260257
+ERROR 2024-03-14 11:50:40,161 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'recipe_site'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 31, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'recipe_site' is not a registered namespace
+ERROR 2024-03-14 11:50:40,164 "GET / HTTP/1.1" 500 261521
+INFO 2024-03-14 11:54:52,346 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 11:54:52,824 Watching for file changes with StatReloader
+ERROR 2024-03-14 11:54:54,700 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 31, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' with no arguments not found. 1 pattern(s) tried: ['search/(?P<q>[^/]+)\\Z']
+ERROR 2024-03-14 11:54:54,704 "GET / HTTP/1.1" 500 272619
+INFO 2024-03-14 11:57:11,796 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 11:57:12,272 Watching for file changes with StatReloader
+INFO 2024-03-14 11:58:19,688 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 11:58:20,260 Watching for file changes with StatReloader
+INFO 2024-03-14 12:00:12,172 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 12:00:12,651 Watching for file changes with StatReloader
+INFO 2024-03-14 12:03:34,259 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 12:03:34,748 Watching for file changes with StatReloader
+INFO 2024-03-14 12:05:43,084 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 12:05:43,633 Watching for file changes with StatReloader
+ERROR 2024-03-14 12:36:25,687 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 32, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' with no arguments not found. 1 pattern(s) tried: ['search/(?P<q>[^/]+)\\Z']
+ERROR 2024-03-14 12:36:25,691 "GET / HTTP/1.1" 500 268786
+INFO 2024-03-14 12:39:56,239 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 12:39:56,757 Watching for file changes with StatReloader
+INFO 2024-03-14 12:39:58,272 "GET / HTTP/1.1" 200 8735
+INFO 2024-03-14 12:40:15,821 "GET /?q=%D1%81%D0%B0%D0%BB%D0%B0%D1%82 HTTP/1.1" 200 6927
+INFO 2024-03-14 12:40:38,500 "GET /?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 200 5558
+INFO 2024-03-14 12:42:23,997 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-14 12:42:24,004 "GET / HTTP/1.1" 200 7225
+INFO 2024-03-14 12:42:24,158 - Broken pipe from ('127.0.0.1', 49612)
+INFO 2024-03-14 12:42:24,160 - Broken pipe from ('127.0.0.1', 49848)
+INFO 2024-03-14 12:42:40,950 "GET /?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 5714
+INFO 2024-03-14 12:47:03,894 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\forms.py changed, reloading.
+INFO 2024-03-14 12:47:04,382 Watching for file changes with StatReloader
+INFO 2024-03-14 12:47:06,994 "GET /?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 7196
+INFO 2024-03-14 12:47:08,512 "GET /?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 8471
+INFO 2024-03-14 12:47:09,400 "GET /?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 6977
+INFO 2024-03-14 12:55:11,586 "GET /?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 5557
+INFO 2024-03-14 12:55:12,618 "GET /?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 6971
+INFO 2024-03-14 12:56:56,342 "GET /add/ HTTP/1.1" 200 5975
+INFO 2024-03-14 12:56:56,558 - Broken pipe from ('127.0.0.1', 51441)
+INFO 2024-03-14 12:56:59,110 "GET / HTTP/1.1" 200 8626
+INFO 2024-03-14 13:00:03,398 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 13:00:03,885 Watching for file changes with StatReloader
+INFO 2024-03-14 13:12:31,787 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 13:12:32,271 Watching for file changes with StatReloader
+INFO 2024-03-14 13:20:26,660 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 13:20:27,215 Watching for file changes with StatReloader
+INFO 2024-03-14 13:20:30,474 "GET / HTTP/1.1" 200 5551
+INFO 2024-03-14 13:20:39,399 "GET /?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 200 5078
+INFO 2024-03-14 13:21:34,667 "GET /add/ HTTP/1.1" 200 5996
+INFO 2024-03-14 13:21:42,947 "GET /add/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 5996
+INFO 2024-03-14 13:21:54,684 "GET /add/?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 200 5996
+INFO 2024-03-14 13:23:45,523 "GET /search/ HTTP/1.1" 200 3403
+INFO 2024-03-14 13:45:23,836 "GET /search/ HTTP/1.1" 200 3273
+INFO 2024-03-14 13:54:30,304 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 13:54:30,924 Watching for file changes with StatReloader
+INFO 2024-03-14 13:55:46,220 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-14 13:55:46,699 Watching for file changes with StatReloader
+INFO 2024-03-14 13:55:46,985 "GET / HTTP/1.1" 200 5296
+INFO 2024-03-14 13:55:51,680 "GET /search/?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 200 3182
+INFO 2024-03-14 14:02:50,862 "GET /search/?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 200 3182
+INFO 2024-03-14 14:03:01,690 "GET /search/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 3182
+INFO 2024-03-14 14:05:22,252 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 14:05:22,849 Watching for file changes with StatReloader
+INFO 2024-03-14 14:11:48,590 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 14:11:49,102 Watching for file changes with StatReloader
+INFO 2024-03-14 14:11:53,624 "GET /search/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 3182
+INFO 2024-03-14 14:11:55,570 "GET /search/?q= HTTP/1.1" 200 3182
+INFO 2024-03-14 14:11:59,020 "GET /search/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 3182
+INFO 2024-03-14 14:13:09,833 "GET /search/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 3188
+INFO 2024-03-14 14:13:24,800 "GET /search/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 200 3188
+INFO 2024-03-14 14:13:46,473 "GET /category/1 HTTP/1.1" 200 3767
+INFO 2024-03-14 14:13:54,696 "GET /recipe/1 HTTP/1.1" 200 5193
+INFO 2024-03-14 14:14:03,072 "GET /search/?q=%D0%A1%D0%B0%D0%BB%D0%B0%D1%82+%D1%81+%D1%81%D1%83%D1%85%D0%B0%D1%80%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8+%22%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%22 HTTP/1.1" 200 3188
+INFO 2024-03-14 14:18:25,394 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 14:18:25,918 Watching for file changes with StatReloader
+INFO 2024-03-14 14:47:00,157 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 14:47:00,686 Watching for file changes with StatReloader
+INFO 2024-03-14 14:49:28,246 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 14:49:28,750 Watching for file changes with StatReloader
+INFO 2024-03-14 14:51:01,817 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-14 14:51:02,283 Watching for file changes with StatReloader
+INFO 2024-03-14 14:51:07,452 "GET / HTTP/1.1" 200 5605
+ERROR 2024-03-14 14:51:13,009 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in get
+    results = Recipe.objects.filter(name__search=query)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1383, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'search' for CharField or join on the field not permitted.
+ERROR 2024-03-14 14:51:13,012 "GET /search/?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 500 152400
+INFO 2024-03-15 23:47:20,408 Watching for file changes with StatReloader
+INFO 2024-03-15 23:47:33,132 "GET / HTTP/1.1" 200 5228
+INFO 2024-03-15 23:47:33,270 "GET /static/recipe_site/css/style.css HTTP/1.1" 200 964
+INFO 2024-03-15 23:47:33,274 "GET /static/recipe_site/logo.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,282 "GET /static/recipe_site/salats.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,285 "GET /static/recipe_site/name.png HTTP/1.1" 200 4562
+INFO 2024-03-15 23:47:33,288 "GET /static/recipe_site/category.png HTTP/1.1" 200 4548
+INFO 2024-03-15 23:47:33,289 "GET /static/recipe_site/soups.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,289 "GET /static/recipe_site/meat_dishes.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,290 "GET /static/recipe_site/about.png HTTP/1.1" 200 8956
+INFO 2024-03-15 23:47:33,298 "GET /static/recipe_site/fish_dishes.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,299 "GET /static/recipe_site/bird_dishes.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,299 "GET /static/recipe_site/garniry.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,299 "GET /static/recipe_site/vhod.png HTTP/1.1" 200 37675
+INFO 2024-03-15 23:47:33,300 "GET /static/recipe_site/vypechka.png HTTP/1.1" 304 0
+INFO 2024-03-15 23:47:33,300 "GET /static/recipe_site/reg.png HTTP/1.1" 200 74912
+WARNING 2024-03-15 23:47:33,465 Not Found: /favicon.ico
+INFO 2024-03-15 23:47:33,466 - Broken pipe from ('127.0.0.1', 58727)
+ERROR 2024-03-15 23:47:51,668 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in get
+    results = Recipe.objects.filter(name__search=query)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1383, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'search' for CharField or join on the field not permitted.
+ERROR 2024-03-15 23:47:51,671 "GET /search/?q=%D0%B4%D0%B5%D1%81%D0%B5%D1%80%D1%82 HTTP/1.1" 500 152544
+WARNING 2024-03-15 23:47:51,750 Not Found: /favicon.ico
+WARNING 2024-03-15 23:47:51,751 "GET /favicon.ico HTTP/1.1" 404 3870
+INFO 2024-03-15 23:47:51,751 - Broken pipe from ('127.0.0.1', 58726)
+ERROR 2024-03-15 23:51:32,067 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 77, in get
+    results = Recipe.objects.filter(name__search=query)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1383, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\db\models\sql\query.py", line 1427, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup 'search' for CharField or join on the field not permitted.
+ERROR 2024-03-15 23:51:32,069 "GET /search/?q=%D0%BC%D1%8F%D1%81%D0%BE HTTP/1.1" 500 152400
+WARNING 2024-03-15 23:51:32,138 Not Found: /favicon.ico
+WARNING 2024-03-15 23:51:32,139 "GET /favicon.ico HTTP/1.1" 404 3870
+INFO 2024-03-16 00:07:38,074 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py changed, reloading.
+INFO 2024-03-16 00:07:38,783 Watching for file changes with StatReloader
+INFO 2024-03-16 00:08:28,815 Watching for file changes with StatReloader
+INFO 2024-03-16 00:09:38,942 C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\urls.py changed, reloading.
+INFO 2024-03-16 00:09:39,409 Watching for file changes with StatReloader
+ERROR 2024-03-16 00:09:41,352 Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' not found. 'search' is not a valid view function or pattern name.
+ERROR 2024-03-16 00:09:41,357 "GET /add/ HTTP/1.1" 500 146359
+WARNING 2024-03-16 00:09:41,449 Not Found: /favicon.ico
+WARNING 2024-03-16 00:09:41,450 "GET /favicon.ico HTTP/1.1" 404 3701
+ERROR 2024-03-16 00:09:45,576 Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' not found. 'search' is not a valid view function or pattern name.
+ERROR 2024-03-16 00:09:45,579 "GET /add/ HTTP/1.1" 500 146359
+WARNING 2024-03-16 00:09:45,642 Not Found: /favicon.ico
+WARNING 2024-03-16 00:09:45,642 "GET /favicon.ico HTTP/1.1" 404 3701
+ERROR 2024-03-16 00:09:55,925 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 32, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' not found. 'search' is not a valid view function or pattern name.
+INFO 2024-03-16 00:09:55,932 - Broken pipe from ('127.0.0.1', 65075)
+WARNING 2024-03-16 00:09:55,962 Not Found: /favicon.ico
+WARNING 2024-03-16 00:09:55,962 "GET /favicon.ico HTTP/1.1" 404 3701
+INFO 2024-03-16 00:09:56,077 - Broken pipe from ('127.0.0.1', 65130)
+INFO 2024-03-16 00:09:56,081 - Broken pipe from ('127.0.0.1', 65129)
+INFO 2024-03-16 19:57:53,933 C:\Users\shuri\PycharmProjects\FinalWork\FinalWork\settings.py changed, reloading.
+INFO 2024-03-16 19:57:57,068 Watching for file changes with StatReloader
+INFO 2024-03-16 19:59:51,217 C:\Users\shuri\PycharmProjects\FinalWork\FinalWork\settings.py changed, reloading.
+INFO 2024-03-16 19:59:51,777 Watching for file changes with StatReloader
+INFO 2024-03-16 20:00:34,592 C:\Users\shuri\PycharmProjects\FinalWork\FinalWork\urls.py changed, reloading.
+INFO 2024-03-16 20:00:35,120 Watching for file changes with StatReloader
+INFO 2024-03-16 20:07:55,979 C:\Users\shuri\PycharmProjects\FinalWork\FinalWork\settings.py changed, reloading.
+INFO 2024-03-16 20:07:56,474 Watching for file changes with StatReloader
+INFO 2024-03-16 20:16:16,358 Watching for file changes with StatReloader
+INFO 2024-03-16 20:17:44,523 C:\Users\shuri\PycharmProjects\FinalWork\FinalWork\settings.py changed, reloading.
+INFO 2024-03-16 20:17:45,190 Watching for file changes with StatReloader
+ERROR 2024-03-16 20:17:47,644 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 32, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' not found. 'search' is not a valid view function or pattern name.
+ERROR 2024-03-16 20:17:47,650 "GET / HTTP/1.1" 500 255825
+WARNING 2024-03-16 20:17:47,766 Not Found: /favicon.ico
+INFO 2024-03-16 20:17:47,768 - Broken pipe from ('127.0.0.1', 50717)
+ERROR 2024-03-16 20:18:32,246 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\recipe_site\views.py", line 32, in home
+    return render(request, 'recipe_site/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shuri\PycharmProjects\FinalWork\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'search' not found. 'search' is not a valid view function or pattern name.
+ERROR 2024-03-16 20:18:32,249 "GET / HTTP/1.1" 500 268936
+WARNING 2024-03-16 20:18:32,374 Not Found: /favicon.ico
+INFO 2024-03-16 20:18:32,375 - Broken pipe from ('127.0.0.1', 50757)
+INFO 2024-03-16 20:18:38,570 "GET / HTTP/1.1" 200 6857
+INFO 2024-03-16 20:18:38,675 "GET /static/recipe_site/css/style.css HTTP/1.1" 200 964
+INFO 2024-03-16 20:18:38,678 "GET /static/recipe_site/logo.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,683 "GET /static/recipe_site/salats.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,685 "GET /static/recipe_site/category.png HTTP/1.1" 200 4548
+INFO 2024-03-16 20:18:38,685 "GET /static/recipe_site/name.png HTTP/1.1" 200 4562
+INFO 2024-03-16 20:18:38,685 "GET /static/recipe_site/about.png HTTP/1.1" 200 8956
+INFO 2024-03-16 20:18:38,687 "GET /static/recipe_site/vhod.png HTTP/1.1" 200 37675
+INFO 2024-03-16 20:18:38,688 "GET /static/recipe_site/soups.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,691 "GET /static/recipe_site/meat_dishes.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,691 "GET /static/recipe_site/fish_dishes.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,691 "GET /static/recipe_site/bird_dishes.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,691 "GET /static/recipe_site/garniry.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:38,693 "GET /static/recipe_site/reg.png HTTP/1.1" 200 74912
+INFO 2024-03-16 20:18:38,693 "GET /static/recipe_site/vypechka.png HTTP/1.1" 304 0
+INFO 2024-03-16 20:18:45,201 "GET /login/ HTTP/1.1" 200 3704
+WARNING 2024-03-16 20:18:45,303 Not Found: /favicon.ico
+INFO 2024-03-16 20:18:45,304 - Broken pipe from ('127.0.0.1', 50766)
+INFO 2024-03-16 20:18:49,322 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-03-16 20:18:49,331 "GET / HTTP/1.1" 200 5838
+INFO 2024-03-16 20:18:49,366 "GET /static/recipe_site/exit.png HTTP/1.1" 200 11194
+INFO 2024-03-16 20:18:51,973 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-03-16 20:18:51,979 "GET / HTTP/1.1" 200 4814
+INFO 2024-03-16 20:18:55,808 "GET /add/ HTTP/1.1" 200 5738
+INFO 2024-03-16 20:18:55,841 "GET /static/recipe_site/add_recipe.png HTTP/1.1" 200 8280
+INFO 2024-03-16 20:19:49,987 C:\Users\shuri\PycharmProjects\FinalWork\FinalWork\settings.py changed, reloading.
+INFO 2024-03-16 20:19:50,469 Watching for file changes with StatReloader

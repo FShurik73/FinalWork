@@ -1,9 +1,27 @@
 {% extends 'recipe_site/base.html' %}
-
+{% load static %}
+{% load bootstrap4 %}
 {% block title %}
-    Search Recipe
+    <h3> {{ title }} </h3>
 {% endblock %}
 
 {% block content %}
-    <h2> Search Recipe </h2>
+    {% if recipe_lists %}
+        {% for recipe in recipe_lists %}
+            <a href="{% url 'recipe' recipe.id %}">
+                <h3>{{ recipe.name }}</h3>
+            </a>
+            <p>{{ recipe.description }}</p>
+        {% endfor %}
+    {% endif %}
+
+
+{#    {{ results|length }}#}
+{#    <ul>#}
+{#        {% for recipe in results %}#}
+{#        <li>#}
+{#            {{ recipe.name}}#}
+{#        </li>#}
+{#        {%  endfor %}#}
+{#    </ul>#}
 {% endblock %}

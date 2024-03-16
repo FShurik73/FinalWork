@@ -44,7 +44,8 @@ class CreateRecipe(forms.ModelForm):
 
 
 class SearchForm(forms.Form):
-    query = forms.CharField(label='Поиск', widget=forms.CharField())
+    query = forms.CharField(label='Поиск')
+    widget = forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Поиск'})
 
 
 class RegForm(forms.ModelForm):
@@ -88,5 +89,5 @@ class Authorization(forms.Form):
 
 
 class LoginUserForm(forms.Form):
-    username = forms.CharField(label='Логин', widget=forms.TextInput(attrs={'class': 'form-input'}))
-    password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-input'}))
+    username = forms.CharField(label='Логин', widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Логин'}))
+    password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Пароль'}))

@@ -7,27 +7,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static 'recipe_site/css/style.css' %}">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>{% block title %}Домашние рецепты {% endblock %}</title>
 </head>
 <body>
 <header class="header" style="display: flex; justify-content: space-around;">
-   <a href="{% url 'Home' %}">
+    <a href="{% url 'Home' %}">
         <img class="logo" src="{% static 'recipe_site/logo.png' %}">
     </a>
     <a href="{% url 'Create recipe' %}">
         <img class="name" src="{% static 'recipe_site/name.png' %}">
     </a>
-    <div class="link_box" style="display: flex; justify-content: space-around ">
-        {% if user.is_authenticated %}
-            <a style="text-decoration: none; font-size: 40px;" href="{% url 'profile' user.id %}">
-                <p>{{ user.username }}</p>
-            </a>
-            <a href="{% url 'logout' %}"><img style="height: 100px; width: 150px;" class="exit" src="{% static 'recipe_site/exit.png' %}"></a>
-        {% else %}
-            <a href="{% url 'login' %}"><img class="vhod" src="{% static 'recipe_site/vhod.png' %}"></a>
-            <a href="{% url 'reg' %}"><img class="reg" src="{% static 'recipe_site/reg.png' %}"></a>
-        {% endif %}
+
+{#    <form action="{% url 'search' %}" method="get">#}
+{#        <input type="text" name="q" placeholder="Поиск рецепта">#}
+{#    </form>#}
+
+    {% if user.is_authenticated %}
+        <a style="text-decoration: none; font-size: 40px;" href="{% url 'profile' user.id %}">
+            <p>{{ user.username }}</p>
+        </a>
+        <a href="{% url 'logout' %}"><img style="height: 100px; width: 150px;" class="exit"
+                                          src="{% static 'recipe_site/exit.png' %}"></a>
+    {% else %}
+        <a href="{% url 'login' %}"><img class="vhod" src="{% static 'recipe_site/vhod.png' %}"></a>
+        <a href="{% url 'reg' %}"><img class="reg" src="{% static 'recipe_site/reg.png' %}"></a>
+    {% endif %}
 
     </div>
 </header>
